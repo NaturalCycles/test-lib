@@ -1,4 +1,4 @@
-import * as timemachine from 'timemachine'
+import { timemachine } from './timemachine'
 
 export const MOCK_TS_2018_06_21 = 1529539200
 

@@ -1,4 +1,3 @@
-
 /**
  * Does Object.freeze recursively for given object.
  *

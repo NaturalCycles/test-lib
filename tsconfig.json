@@ -2,10 +2,7 @@
   "extends": "@naturalcycles/dev-lib/cfg/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "typeRoots": [
-      "node_modules/@types",
-      "src/@types"
-    ]
+    "allowJs": true
   },
   "include": ["src"],
   "exclude": ["**/__exclude", "**/@linked"]

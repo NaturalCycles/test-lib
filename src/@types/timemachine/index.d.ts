@@ -1,3 +1,4 @@
+/*
 declare module 'timemachine' {
   interface TimemachineOptions {
     dateString?: string
@@ -10,3 +11,4 @@ declare module 'timemachine' {
   export function config (options?: TimemachineOptions): void
   export function reset (): void
 }
+*/
