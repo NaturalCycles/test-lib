@@ -1,9 +1,8 @@
 ## @naturalcycles/test-lib
 
-> Node.js library
+> Test utilities, to be installed as devDependency.
 
 [![npm](https://img.shields.io/npm/v/@naturalcycles/test-lib/latest.svg)](https://www.npmjs.com/package/@naturalcycles/test-lib)
-[![](https://circleci.com/gh/NaturalCycles/test-lib.svg?style=shield&circle-token=123)](https://circleci.com/gh/NaturalCycles/test-lib)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 # Features
