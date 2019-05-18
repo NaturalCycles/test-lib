@@ -30,7 +30,7 @@
   "engines": {
     "node": ">=10.13"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test utilities, to be installed as devDependency",
   "keywords": [
     "test",
