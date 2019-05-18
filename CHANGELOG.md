@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/NaturalCycles/test-lib/compare/v1.0.1...v1.0.2) (2019-05-18)
+
+
+### Bug Fixes
+
+* build ([b7a0f50](https://github.com/NaturalCycles/test-lib/commit/b7a0f50))
+* embed and export timemachine with types ([7ecad54](https://github.com/NaturalCycles/test-lib/commit/7ecad54))
+
 ## [1.0.1](https://github.com/NaturalCycles/test-lib/compare/v1.0.0...v1.0.1) (2019-05-18)
 
 
