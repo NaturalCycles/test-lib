@@ -1,7 +1,9 @@
 {
   "name": "@naturalcycles/test-lib",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "timekeeper": "^2.2.0"
+  },
   "devDependencies": {
     "@naturalcycles/dev-lib": "^7.6.0",
     "@naturalcycles/semantic-release": "^1.0.0",

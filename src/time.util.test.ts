@@ -2,11 +2,9 @@ import { MOCK_TS_2018_06_21, mockTime, mockTimeMillis, resetTime } from './time.
 
 const now = Date.now()
 
-beforeEach(() => {
-  resetTime()
-})
-
 test('mockTime default', () => {
+  expect(new Date().getFullYear()).toBeGreaterThan(2018)
+
   expect(Date.now()).toBeGreaterThanOrEqual(now)
 
   mockTime()
@@ -20,4 +18,8 @@ test('mockTime default', () => {
   mockTimeMillis(123456)
 
   expect(Date.now()).toBe(123456)
+
+  resetTime()
+
+  expect(new Date().getFullYear()).toBeGreaterThan(2018)
 })

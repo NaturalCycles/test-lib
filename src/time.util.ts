@@ -1,4 +1,4 @@
-import { timemachine } from './timemachine'
+import * as timekeeper from 'timekeeper'
 
 export const MOCK_TS_2018_06_21 = 1529539200
 
@@ -11,11 +11,13 @@ export function mockTime (ts = MOCK_TS_2018_06_21): void {
 }
 
 export function mockTimeMillis (millis = MOCK_TS_2018_06_21 * 1000): void {
-  timemachine.config({
+  /*timemachine.config({
     timestamp: millis,
-  })
+  })*/
+  timekeeper.freeze(millis)
 }
 
 export function resetTime (): void {
-  timemachine.reset()
+  timekeeper.reset()
+  // timemachine.reset()
 }

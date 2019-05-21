@@ -7,7 +7,13 @@
 
 # Features
 
-- ...
+- General
+  - `deepFreeze`
+- Console
+  - `silentConsole`
+- Time
+  - `mockTime` / `resetTime`
+  - `timekeeper`
 
 # Packaging
 
